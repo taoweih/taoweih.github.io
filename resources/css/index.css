@@ -1,3 +1,11 @@
-h1 {
-    text-align: center;
+body{
+    font-family: "helvetica";
+    background-color:white;
+}
+#welcome_message{
+    font-size: 30px;
+}
+
+#short_intro{
+    font-size: 15px;
 }
