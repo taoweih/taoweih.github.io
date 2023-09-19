@@ -1,7 +1,9 @@
+@import "nav_style.css";
 body{
     font-family: "helvetica";
     background-color:white;
 }
+
 #welcome_message{
     font-size: 30px;
 }
@@ -9,3 +11,12 @@ body{
 #short_intro{
     font-size: 15px;
 }
+
+#memoji{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
