@@ -15,10 +15,11 @@ body{
 
 #short_intro{
     font-size: 23px;
-    width:700px;
+    /*width:700px;*/
     padding: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 50%;
 }
 
 #link_about{
@@ -35,6 +36,11 @@ body{
     right:9%
 }
 
+@media (max-width: 1300px) {
+    #memoji{
+      display: none;
+    }
+  }
 
 
 
