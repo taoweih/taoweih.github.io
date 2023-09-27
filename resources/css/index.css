@@ -1,20 +1,38 @@
 @import "nav_style.css";
 body{
     font-family: "helvetica";
-    background-color:white;
+    background-color: rgb(249, 249, 249);
 }
 
+#intro_text{
+    margin-top: 120px !important;
+    margin-left: 150px;
+}
 #welcome_message{
-    font-size: 30px;
+    font-size: 50px;
+    padding: 5px;
 }
 
 #short_intro{
-    font-size: 15px;
+    font-size: 23px;
+    width:700px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#link_about{
+    font-size: 17px;
+    padding: 5px;
+    text-decoration:none;
+    color:rgb(16, 116, 149);
 }
 
 #memoji{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
+    position:absolute;
+    right:9%
 }
 
 
