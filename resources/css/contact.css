@@ -4,3 +4,26 @@ body{
     font-family: "helvetica";
     background-color: rgb(249, 249, 249);
 }
+
+#title{
+    margin-top: 20px;
+    margin-right: 30%;
+    margin-left: 39%;
+}
+
+#linkedin{
+    margin-left: 41%;
+}
+
+#info_form{
+    margin-right: 30%;
+    margin-left: 35%;
+}
+
+input{
+    width: 400px;
+}
+textarea{
+    width:400px;
+    height:300px;
+}
