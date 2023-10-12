@@ -11,7 +11,7 @@ body{
     margin-left: 39%;
 }
 
-#intro{
+.intro{
     margin-right: 30%;
     margin-left: 30%;
 }
@@ -19,5 +19,11 @@ body{
 #main_body{
     margin-top: 50px;
     margin-right: 30%;
-    margin-left: 32%;
+    margin-left: 30%;
+}
+
+#link_experience{
+    font-size: 15px;
+    text-decoration:none;
+    color:rgb(16, 116, 149);
 }
