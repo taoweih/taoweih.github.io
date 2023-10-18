@@ -11,14 +11,15 @@ body{
 
 #intro{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 11%;
+    justify-content: space-around;
+    height:80vh;
+    padding: 0 7%;
 }
 
 #intro_text{
-    flex: 1;
+    flex: 1 1;
     padding: 20px;
 }
 #welcome_message{
@@ -38,20 +39,7 @@ body{
     padding: 20px;
 }
 
-#image{
-    flex: 1;
-    text-align: center;
-}
-#memoji{
-    max-width: 100%;
-    height: auto;
-}
 
-@media (max-width: 700px) {
-    #memoji{
-      display: none;
-      visibility: hidden;
-    }
-  }
+
 
 

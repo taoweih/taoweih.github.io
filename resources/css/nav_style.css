@@ -10,7 +10,7 @@ nav{
 
 .link{
     font-size: 20px;
-    padding: 10px 60px;
+    /*padding: 10px 60px;*/
     text-decoration:none;
     color: black;
 }
@@ -19,21 +19,22 @@ nav{
     color:rgb(16, 116, 149);
 }
 
-#icon{
-    width: 80px;
-    height: 80px;
-    margin: 5px;
-    padding-left: 15px;
-}
-
 #nav_container{
     display: flex;
     align-items: center;
     background-color: rgb(240, 240, 240);
 }
 
+#icon{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    padding-left: 15px;
+    flex-shrink: 1;
+}
+
 #header{
-    position: absolute;
-    left: 20%;
-    right: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
 }
