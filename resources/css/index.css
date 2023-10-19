@@ -20,25 +20,31 @@ body{
 
 #intro_text{
     flex: 1 1;
+    min-width: 400px;
     padding: 20px;
 }
 #welcome_message{
-    font-size: 50px;
+    font-size: 45px;
     padding: 20px;
 }
 
 #short_intro{
-    font-size: 23px;
+    font-size: 20px;
     padding: 20px;
 }
 
 #link_about{
-    font-size: 17px;
+    font-size: 15px;
     text-decoration:none;
     color:rgb(16, 116, 149);
     padding: 20px;
 }
 
+#image{
+    width: 100%;
+    flex-shrink: 1;
+ 
+}
 
 
 
