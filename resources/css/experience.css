@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     align-items: start;
 
-    padding: 0 25%;
+    padding: 0 27%;
 }
 
 .work_experience{
@@ -31,16 +31,30 @@ body{
 
 #resume_link{
     font-size: 13px;
+    margin-bottom: 1em;
     text-decoration:underline;
     color: black;
 }
 
 #resume_link:hover{
     color:rgb(16, 116, 149);
+    
 }
 
 #link_contact{
     font-size: 15px;
     text-decoration:none;
     color:rgb(16, 116, 149);
+}
+
+ul{
+    margin: 1em 0;
+}
+
+h3{
+    margin: 0.5em 0;
+}
+
+.title_time{
+    font-style: italic;
 }
