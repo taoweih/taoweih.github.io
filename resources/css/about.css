@@ -4,6 +4,9 @@
 body{
     font-family: "helvetica";
     background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .educations{
@@ -14,8 +17,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     padding-top: 3vh;
+    height: 88vh;
 }
 
 #intro_container{
