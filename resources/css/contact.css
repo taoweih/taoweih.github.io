@@ -13,14 +13,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 88vh;
+    height: 85vh;
 
     padding-top: 3vh;
 
 }
 
 #linkedin{
-    display: inline-flex
+    display: inline-flex;
+    padding-top: 1em;
 }
 
 #linkedin_link{
