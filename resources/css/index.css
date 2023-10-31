@@ -25,7 +25,7 @@ body{
 #intro_text{
     flex: 1 1;
     min-width: 400px;
-    padding: 20px;
+    padding: 2em;
 }
 #welcome_message{
     font-size: 45px;
