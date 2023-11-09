@@ -35,11 +35,36 @@ body{
 .blog{
     display: flex;
     align-items: center;
-    background-color: rgb(238, 238, 238);
-    border: 1px black solid;
-    border-radius: 3px;
+    border-bottom: 0.5px lightgray solid;
+    border-top: 0.5px lightgray solid;
+
     width: 40vw;
     height: 20vh;
 
-    margin-bottom: 2em;
+}
+
+.thumbnail{
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+.text_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 3em;
+    height: 100%;
+    color:black;
+}
+
+#blog_start{
+    border-top: 1px lightgray solid;
+}
+
+#blog_end{
+    border-bottom: 1px lightgray solid;
+}
+
+.blog:hover{
+    background-color: rgb(238, 238, 238);
 }
