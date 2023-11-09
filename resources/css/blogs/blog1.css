@@ -1,5 +1,5 @@
-@import "nav_style.css";
-@import "footer.css";
+@import "../nav_style.css";
+@import "../footer.css";
 /**{
     border: 1px solid red;
 }*/
@@ -32,14 +32,3 @@ body{
     width: 80vw;
 }
 
-.blog{
-    display: flex;
-    align-items: center;
-    background-color: rgb(238, 238, 238);
-    border: 1px black solid;
-    border-radius: 3px;
-    width: 40vw;
-    height: 20vh;
-
-    margin-bottom: 2em;
-}
