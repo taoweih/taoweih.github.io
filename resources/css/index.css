@@ -54,21 +54,3 @@ main{
 
 /*---------------responsive media queries----------------*/
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 640px) {
-    #welcome_message{
-        font-size: 2em;
-    }
-    
-    #short_intro{
-        font-size: 1em;
-    }
-
-    #link_about{
-        font-size: 0.5em;
-    }
-
-    #image{
-        width: 70%;
-    }
-}
